@@ -6,7 +6,7 @@ SRC_DIR := src
 BUILD_DIR := build
 
 # Adjust if your API path differs
-NT_API_PATH := ../distingNT_API
+NT_API_PATH := ./distingNT_API
 INCLUDES := -I$(NT_API_PATH)/include -Iinclude
 
 TARGET_ARCH := arm-none-eabi-
