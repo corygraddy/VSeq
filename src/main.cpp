@@ -1815,7 +1815,7 @@ bool deserialise(_NT_algorithm* self, _NT_jsonParse& parse) {
 extern "C" {
 
 static const _NT_factory factory = {
-    .guid = NT_MULTICHAR('V','S','E','Q'),
+    .guid = NT_MULTICHAR('C','G','S','Q'),
     .name = "VSeq",
     .description = "4-channel 16-step sequencer with clock/reset",
     .numSpecifications = 0,
